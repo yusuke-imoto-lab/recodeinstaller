@@ -1,11 +1,11 @@
 Package: recodeinstaller
 Type: Package
-Title: Installer of RECODE (recodeinstaller)
+Title: R Installer of RECODE
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
+Author: Yusuke Imoto
+Maintainer: Yusuke Imoto <imoto.yusuke.4e@kyoto-u.ac.jp>
 Description:  "recodeinstaller" enables the user to install the Python version RECODE by using the R reticulate package.
-License: What license is it under?
+License: MIT
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.3
