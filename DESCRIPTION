@@ -1,4 +1,4 @@
-Package: RECODE_R_installer
+Package: recodeinstaller
 Type: Package
 Title: R Installer of RECODE
 Version: 0.1.0
