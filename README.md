@@ -1,12 +1,12 @@
 
-# Installer of RECODE (recodeinstaller)
+# Installer of RECODE for R (recodeinstaller)
 
  "recodeinstaller" enables the user to install the Python version RECODE by using the R reticulate package.
   
- RECODE - resolution of curse of dimensionality in single-cell data analysis : https://github.com/yusuke-imoto-lab/RECODE
+ RECODE - resolution of the curse of dimensionality in single-cell data analysis : https://github.com/yusuke-imoto-lab/RECODE
  
  
- Ushey K, Allaire J, Tang Y (2023). reticulate: Interface to 'Python'. https://rstudio.github.io/reticulate/, https://github.com/rstudio/reticulate. 
+ Ushey K, Allaire J, Tang Y (2023). reticulate: Interface to 'Python'. https://rstudio.github.io/reticulate/, https://github.com/rstudio/reticulate
  
  "recodeinstaller" supports the following types of RECODE installation.
 
@@ -18,15 +18,13 @@
  
 ## Installation
 
-You can install "recodeinstaller" with the following command:
+After installing reticulate (`install.packages("reticulate")`), you can install "recodeinstaller" with the following command:
 
 ``` r
 remotes::install_github("yusuke-imoto-lab/recodeinstaller")
 ```
 
-## Usage
-
-The following command installs the Python version of RECODE.
+Then, the following command installs the Python version of RECODE.
 
 ``` r
 library(recodeinstaller)
